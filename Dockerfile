@@ -15,7 +15,7 @@ yum --setopt=tsflags=nodocs -y install etcd; \
 yum --setopt=tsflags=nodocs -y install tendrl-node-agent; \
 yum --setopt=tsflags=nodocs -y install tendrl-api; \
 yum --setopt=tsflags=nodocs -y install tendrl-ui; \
-yum --setopt=tsflags=nodocs -y  --nogpgcheck install tendrl-monitoring-integration; \
+yum --setopt=tsflags=nodocs -y install tendrl-monitoring-integration; \
 yum --setopt=tsflags=nodocs -y install tendrl-notifier; \
 yum clean all;
 
