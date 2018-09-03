@@ -1,4 +1,4 @@
-FROM centos/systemd
+FROM centos
 
 MAINTAINER Ankush Behl anbehl@redhat.com
 
